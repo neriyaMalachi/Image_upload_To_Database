@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import Image from "@/app/api/schema/image_scema";
-import connectMongo from "@/app/api/utils/db/route";
+import connectMongo from "@/app/api/utils/db";
 
 export async function GET() {
   try {
