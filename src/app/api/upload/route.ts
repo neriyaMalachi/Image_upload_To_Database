@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import cloudinary from "@/app/api/utils/cloudinary/route";
-import connectMongo from "@/app/api/utils/db/route";
+import cloudinary from "@/app/api/utils/cloudinary";
+import connectMongo from "@/app/api/utils/db";
 import Image from "../schema/image_scema";
 
 export async function POST(req: NextRequest) {
